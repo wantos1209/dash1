@@ -75,10 +75,10 @@ Route::get('setting', [SettingController::class, 'index'])->name('setting')->mid
 Route::post('update-setting', [SettingController::class, 'update'])->name('setting.update')->middleware('auth');
 
 // PEMBERITAHUAN
-// Route::get('pemberitahuan', [PemberitahuanController::class, 'index'])->name('pemberitahuan')->middleware('is_admin');
-// Route::get('form-pemberitahuan/{id}', [PemberitahuanController::class, 'form'])->name('pemberitahuan.form')->middleware('is_admin');
-// Route::post('create-pemberitahuan', [PemberitahuanController::class, 'create'])->name('pemberitahuan.create')->middleware('is_admin');
-// Route::get('delete-pemberitahuan/{id}',[PemberitahuanController::class, 'delete'])->name('pemberitahuan.delete')->middleware('is_admin');
+Route::get('pemberitahuan', [PemberitahuanController::class, 'index'])->name('pemberitahuan')->middleware('is_admin');
+Route::get('form-pemberitahuan/{id}', [PemberitahuanController::class, 'form'])->name('pemberitahuan.form')->middleware('is_admin');
+Route::post('create-pemberitahuan', [PemberitahuanController::class, 'create'])->name('pemberitahuan.create')->middleware('is_admin');
+Route::get('delete-pemberitahuan/{id}',[PemberitahuanController::class, 'delete'])->name('pemberitahuan.delete')->middleware('is_admin');
 // Route::post('update-pemberitahuan/{id}',[PemberitahuanControlle::class, 'update'])->name('pemberitahuan.update');
 
 //BERITA
