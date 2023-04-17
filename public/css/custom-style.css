@@ -1,0 +1,57 @@
+
+.logo {
+    overflow: hidden;
+    color: #fff;
+    cursor: pointer;
+    /* position: absolute; */
+    top: -0.8rem;
+    left: 28.4rem;
+    margin: 0 auto;
+}
+.logo a {
+    background-color: transparent;
+}
+.logo a img {
+    width: 250px;
+    transition: all 0.3s ease;
+}
+.logo a img:hover {
+    transform: scale(1.1);
+    background: transparent;
+}
+
+body {
+  background-color: #0b0b0b !important;
+}
+
+.login-card {
+  border-radius: 0.5rem;
+  border-top-right-radius: 0.5rem !important;
+  border-bottom-right-radius: 0.5rem !important;
+  border-left-width: 1px;
+
+  /* background-color: #151515; */
+  /* box-shadow: 7px 7px 20px 0px #442120; */
+}
+
+table td, table th {
+    color: #000;
+}
+
+.card {
+    background-color: #212529;
+}
+
+.card-header {
+    background-color: #212529;
+}
+
+label {
+    color: white;
+}
+
+
+
+table td, table th {
+    border: none;
+}
